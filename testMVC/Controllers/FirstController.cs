@@ -5,16 +5,6 @@ namespace testMVC.Controllers
 {
     public class FirstController : Controller
     {
-        public string Index()
-        {
-            return "Hello world";
-        }
-
-        public IActionResult Hello()
-        {
-            ViewBag.Message = "Hello World";
-            return View();
-        }
 
         public IActionResult Info()
         {
@@ -35,6 +25,11 @@ namespace testMVC.Controllers
         {
             Respository.Create(person);
             return View("Thanks", person);
+        }
+
+        public IActionResult Index()
+        {
+            return View(Respository.AllPersons);
         }
     }
 }
