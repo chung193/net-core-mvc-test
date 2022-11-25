@@ -3,26 +3,25 @@
 *@
 @model Person
 @{
-    ViewData["title"] = "Create";
+    ViewData["Title"] = "Update";
 }
-<h2>Create</h2>
+
+<a asp-action="Index">View all person</a>
+<h2>Update</h2>
 <form method="post">
     <p>
-        <label asp-for="Name">Your Name</label>
+        <label asp-for="Name">Name</label>
         <input asp-for="Name" />
         <span asp-validation-for="Name"></span>
     </p>
-
     <p>
         <label asp-for="Age">Age</label>
         <input asp-for="Age" />
         <span asp-validation-for="Age"></span>
     </p>
-
     <p>
         <label asp-for="Location">Location</label>
         <input asp-for="Location" />
         <span asp-validation-for="Location"></span>
-    </p>
-    <p><button type="submit">Submit</button></p>
+    </p><button type="submit">Submit</button></p>
 </form>
