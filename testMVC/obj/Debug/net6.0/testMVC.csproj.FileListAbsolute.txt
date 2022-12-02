@@ -31,3 +31,5 @@ D:\code\testMVC\testMVC\obj\Debug\net6.0\testMVC.genruntimeconfig.cache
 D:\code\testMVC\testMVC\obj\Debug\net6.0\ref\testMVC.dll
 D:\code\testMVC\testMVC\obj\Debug\net6.0\testMVC.Properties.Resources.resources
 D:\code\testMVC\testMVC\obj\Debug\net6.0\testMVC.csproj.GenerateResource.cache
+D:\code\testMVC\testMVC\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\code\testMVC\testMVC\obj\Debug\net6.0\testMVC.csproj.CopyComplete
